@@ -7,14 +7,21 @@ public class Main {
         LinkedList myLinkedList = new LinkedList(4);
         myLinkedList.getHead();
         myLinkedList.getTail();
-        myLinkedList.getSize();
+        myLinkedList.getLength();
         System.out.println("-----------------------");
         myLinkedList.printList();
         System.out.println("-----------------------");
-        myLinkedList.addLast(3);
-        myLinkedList.addLast(5);
+        myLinkedList.append(3);
+        myLinkedList.append(5);
         System.out.println("-----------------------");
         myLinkedList.printList();
-        myLinkedList.getSize();
+        myLinkedList.getLength();
+        System.out.println("LL before reverse():");
+        myLinkedList.printList();
+
+        myLinkedList.reverse();
+
+        System.out.println("\nLL after reverse():");
+        myLinkedList.printList();
     }
 }
