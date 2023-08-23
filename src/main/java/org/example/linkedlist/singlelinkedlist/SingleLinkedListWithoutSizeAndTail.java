@@ -1,6 +1,5 @@
 package org.example.linkedlist.singlelinkedlist;
 
-import org.example.tests.testjj.tt.Node;
 
 public class SingleLinkedListWithoutSizeAndTail {
     Node head;
