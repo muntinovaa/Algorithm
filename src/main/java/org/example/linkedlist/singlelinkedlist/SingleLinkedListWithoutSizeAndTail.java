@@ -1,5 +1,7 @@
 package org.example.linkedlist.singlelinkedlist;
 
+import org.example.tests.testjj.tt.Node;
+
 public class SingleLinkedListWithoutSizeAndTail {
     Node head;
 
@@ -11,6 +13,8 @@ public class SingleLinkedListWithoutSizeAndTail {
         Node(int value){
             this.value=value;
         }
+
+
     }
     public SingleLinkedListWithoutSizeAndTail(int value) {
         head = new Node(value);     //header should never be null
@@ -41,11 +45,26 @@ public class SingleLinkedListWithoutSizeAndTail {
         }
         return count;
     }
+    public void printNodes() {
+        if (size() < 1)
+            System.out.println("There are no nodes in the linked list");
+        else {
+           Node current = head;
+            for (int i = 0; i < size(); i++) {
+                System.out.println("Node " + current.value + " is at location " + i);
+                current = current.next;
+            }
+        }
+    }
 
     public static void main(String[] args) {
         SingleLinkedListWithoutSizeAndTail list = new SingleLinkedListWithoutSizeAndTail(4);
         list.addFirst(5);
         list.addFirst(6);
+        list.addLast(2);
+        list.addLast(1);
+        list.addFirst(1);
+        list.printNodes();
         System.out.println(list.size());
     }
 
