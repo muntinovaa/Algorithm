@@ -3,7 +3,6 @@ package org.example.linkedlist.singlelinkedlist;
 
 public class SingleLinkedListWithoutSizeAndTail {
     Node head;
-
     class Node {
         int value;
         Node next;
