@@ -1,4 +1,4 @@
-package org.example.array;
+package org.example.ArrayAlgorithm;
 
 import java.util.ArrayList;
 

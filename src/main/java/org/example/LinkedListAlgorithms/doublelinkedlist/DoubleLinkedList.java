@@ -1,4 +1,4 @@
-package org.example.linkedlist.doublelinkedlist;
+package org.example.LinkedListAlgorithms.doublelinkedlist;
 
 public class DoubleLinkedList {
         private Node head;

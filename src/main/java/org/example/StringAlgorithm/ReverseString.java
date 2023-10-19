@@ -1,4 +1,4 @@
-package org.example.stringexample;
+package org.example.StringAlgorithm;
 
 public class ReverseString {
     public static void main(String[] args) {
