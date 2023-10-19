@@ -8,7 +8,7 @@ package org.example.StringAlgorithm;
  */
 public class FirstUniqueChar {
     public static void main(String[] args) {
-        String input = "find first non repeated character of a given String";
+        String input = "find first";
 
         System.out.println(firstUniqueChar(input));
     }
@@ -22,10 +22,12 @@ public class FirstUniqueChar {
         int[] charFrequency = new int[256];
         // Populate the frequency array
         for (char c : input.toCharArray()) {
-            charFrequency[c]++;
+             charFrequency[c]++;
         }
+
         // Iterate through the string to find the first character with a frequency of 1
         for (char c : input.toCharArray()) {
+            System.out.println(charFrequency[c]);
             if (charFrequency[c] == 1) {
                 return c;
             }
