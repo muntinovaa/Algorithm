@@ -8,7 +8,7 @@ public class StringReverseByWord {
         }
 
         public static String reverseByWords(String input) {
-            String[] words = input.split(" ");
+            String[] words = input.split("\\s+"); // split on spaces
             StringBuilder reversedString = new StringBuilder();
 
             for (int i = words.length - 1; i >= 0; i--) {
