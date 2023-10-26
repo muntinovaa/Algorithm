@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.dublicate;
 
 import java.util.HashSet;
 import java.util.Set;

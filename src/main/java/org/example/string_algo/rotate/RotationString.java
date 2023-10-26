@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.rotate;
 
 public class RotationString {
     public static void main(String[] args) {

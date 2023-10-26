@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.anagram;
 
 public class AnagramString {
 

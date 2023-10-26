@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.rotate;
 
 public class isRotated2Places {
     public static void main(String[] args) {

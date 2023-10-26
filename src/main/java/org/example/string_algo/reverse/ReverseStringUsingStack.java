@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.reverse;
 
 import java.util.Stack;
 

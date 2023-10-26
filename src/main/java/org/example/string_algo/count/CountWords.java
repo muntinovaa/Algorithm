@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.count;
 
 public class CountWords {
     public static void main(String[] args) {

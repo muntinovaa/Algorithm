@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.anagram;
 
 import java.util.ArrayList;
 import java.util.HashMap;

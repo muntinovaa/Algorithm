@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.remove;
 
 //Remove common characters and concatenate
 public class RemoveAndConcatenate {

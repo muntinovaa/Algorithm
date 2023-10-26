@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.remove;
 
 public class RemoveWhitespace {
     public static void main(String[] args) {

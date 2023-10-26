@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.reverse;
 
 public class ReverseNumberWithStringBuilder {
     public static void main(String[] args) {

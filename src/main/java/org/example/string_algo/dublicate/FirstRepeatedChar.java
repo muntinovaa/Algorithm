@@ -1,4 +1,4 @@
-package org.example.string_algo;
+package org.example.string_algo.dublicate;
 
 public class FirstRepeatedChar {
     public static void main(String[] args) {
