@@ -7,8 +7,9 @@ import java.util.Map;
 
 public class FindAllAnagramsString {
     public static void main(String[] args) {
-        String text = "cdcdcdaebabacddc";
-        String pattern = "cd";
+        String text = "cbaebabacd";
+        String pattern = "abc";
+
         List<Integer> indices = findAnagrams(text, pattern);
         for (Integer i: indices){
             System.out.println(i);
