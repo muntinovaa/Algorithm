@@ -34,5 +34,5 @@ public class RemoveDuplicatesArrayList {
                    .distinct()
                    .collect(Collectors.toCollection(ArrayList::new));
     }
-
+    //https://github.com/NirmalSilwal/Data-Structure-and-Algorithm-Java-interview-kit
 }
