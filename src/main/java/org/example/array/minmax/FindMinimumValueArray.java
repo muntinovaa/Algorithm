@@ -21,8 +21,7 @@ public class FindMinimumValueArray {
         int[] arr = { 9, 2, 3, 6};
 
         System.out.print("Array : ");
-        for(int i = 0; i < arr.length; i++)
-            System.out.print(arr[i] + " ");
+        for (int j : arr) System.out.print(j + " ");
         System.out.println();
 
         int min = findMinimum(arr);
