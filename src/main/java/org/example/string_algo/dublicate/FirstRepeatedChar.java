@@ -11,7 +11,7 @@ public class FirstRepeatedChar {
         String str3 = "abc";
         System.out.println(firstRepChar(str3)); // Expected Output: -
     }
-    public static char firstRepChar(String S) {
+    public static Character firstRepChar(String S) {
         int[] freq = new int[26]; // Assuming only lowercase letters
 
         for (int i = 0; i < S.length(); i++) {
