@@ -7,7 +7,7 @@ public class ConsecutiveRepeats {
     public static Map<Character, Integer> findConsecutiveRepeats(String s) {
         Map<Character, Integer> result = new HashMap<>();
 
-        if (s == null || s.length() == 0) return result;
+        if (s == null || s.isEmpty()) return result;
 
         char prevChar = s.charAt(0);
         int count = 1;

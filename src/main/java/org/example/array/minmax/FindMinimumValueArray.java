@@ -16,14 +16,13 @@ public class FindMinimumValueArray {
         return minimum;
     } //end of findMinimum
 
-    public static void main(String args[]) {
+    public static void main(String []args) {
 
         int[] arr = { 9, 2, 3, 6};
 
         System.out.print("Array : ");
         for (int j : arr) System.out.print(j + " ");
         System.out.println();
-
         int min = findMinimum(arr);
         System.out.println("Minimum in the Array: " + min);
 

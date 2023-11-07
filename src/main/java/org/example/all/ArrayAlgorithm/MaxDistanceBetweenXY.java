@@ -19,7 +19,7 @@ public class MaxDistanceBetweenXY {
     }
 
     public static void main(String[] args) {
-        int arr[] = {3, 5, 4, 2, 6, 3, 0, 0, 5, 4, 8, 3};
+        int[] arr = {3, 5, 4, 2, 6, 3, 0, 0, 5, 4, 8, 3};
         int x = 3;
         int y = 5;
 
