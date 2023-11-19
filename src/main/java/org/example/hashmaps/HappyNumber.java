@@ -1,4 +1,8 @@
 package org.example.hashmaps;
+
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  Write an algorithm to determine if a number n is happy.
 
@@ -20,9 +24,29 @@ package org.example.hashmaps;
  Output: false
  * */
 public class HappyNumber {
- /*   public boolean isHappy(int n) {
-
+    public static void main(String[] args) {
+        System.out.println(isHappy(1256));
+        System.out.println(isHappy(19));
     }
-    */
+    public static boolean isHappy(int n) {
+        Set<Integer> seen = new HashSet<>();
+
+        while (n != 1 && !seen.contains(n)) {
+            seen.add(n);
+            n = getNextNumber(n);
+        }
+
+        return n == 1;
+    }
+
+    static int getNextNumber(int n) {
+        int sum = 0;
+        while (n > 0) {
+            int digit = n % 10;
+            sum += digit * digit;
+            n /= 10;
+        }
+        return sum;
+    }
 
 }
