@@ -1,4 +1,4 @@
-package org.example.hashmaps;
+package org.example.hashmaps.pairs;
 
 public class CountPairsGivenSum {
 }

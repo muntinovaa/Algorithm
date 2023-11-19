@@ -1,4 +1,4 @@
-package org.example.hashmaps.student;
+package org.example.hashmaps.methods;
 
 import java.util.HashMap;
 import java.util.Iterator;
