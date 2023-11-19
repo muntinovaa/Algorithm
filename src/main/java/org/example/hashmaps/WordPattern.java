@@ -8,7 +8,7 @@ package org.example.hashmaps;
  Output: false
  Example 3: Input: pattern = "aaaa", s = "dog cat cat dog"
  Output: false
- * */
+ **/
 public class WordPattern {
     /*
     public boolean wordPattern(String pattern, String s) {
