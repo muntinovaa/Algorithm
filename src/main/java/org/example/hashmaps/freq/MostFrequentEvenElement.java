@@ -1,4 +1,8 @@
 package org.example.hashmaps.freq;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  Given an integer array nums, return the most frequent even element.
 
@@ -16,7 +20,47 @@ package org.example.hashmaps.freq;
  Explanation: There is no even element.
  * */
 public class MostFrequentEvenElement {
-  /*  public int mostFrequentEven(int[] nums) {
+    public static void main(String[] args) {
+        int [] nums = {1,2,3,2,6};
+        System.out.println(mostFrequentEven(nums));
+        System.out.println(mostFrequentEven1(nums));
+    }
+   public static Integer mostFrequentEven(int[] nums) {
+       Map<Integer, Integer> map = new HashMap<>();
 
-    } */
+       for (Integer number : nums) {
+           if (number % 2 == 0) {
+               map.put(number, map.getOrDefault(number, 0) + 1);
+           }
+       }
+       int maxValue = Integer.MIN_VALUE;
+       for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+           if (maxValue < entry.getValue()) {
+               maxValue = entry.getValue();
+           }
+
+       }
+
+       return maxValue;
+   }
+
+    public static int mostFrequentEven1(int[] nums) {
+        Map<Integer, Integer> frequencyMap = new HashMap<>();
+        int maxFrequency = 0;
+        Integer mostFrequentEven = null;
+
+        for (int num : nums) {
+            if (num % 2 == 0) {
+                int frequency = frequencyMap.getOrDefault(num, 0) + 1;
+                frequencyMap.put(num, frequency);
+
+                if (frequency > maxFrequency || (frequency == maxFrequency && num < mostFrequentEven)) {
+                    maxFrequency = frequency;
+                    mostFrequentEven = num;
+                }
+            }
+        }
+
+        return mostFrequentEven != null ? mostFrequentEven : -1;
+    }
 }

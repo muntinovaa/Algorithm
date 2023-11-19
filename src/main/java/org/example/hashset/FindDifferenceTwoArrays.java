@@ -1,4 +1,4 @@
-package org.example.hashmaps.difference;
+package org.example.hashset;
 
 import java.util.ArrayList;
 import java.util.HashSet;
