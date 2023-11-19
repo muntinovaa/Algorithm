@@ -24,19 +24,16 @@ public class MissingNumber {
 public static int missingNumber(int[] nums) {
    Map<Integer, Boolean> map = new HashMap<>();
         int n = nums.length;
-
         // Store each number in the map
         for (int num : nums) {
             map.put(num, true);
         }
-
         // Find the missing number
         for (int i = 0; i <= n; i++) {
             if (!map.containsKey(i)) {
                 return i;
             }
         }
-
    return -1; // In case all numbers are present (not expected in this problem)
 
 }
