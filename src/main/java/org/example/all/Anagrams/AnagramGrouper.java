@@ -1,4 +1,4 @@
-package org.example.anagram;
+package org.example.all.Anagrams;
 
 import java.util.*;
 
