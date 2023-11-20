@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class SumUniqueElements {
     public static void main(String[] args) {
-        int [] nums = {1,2,3};
+        int [] nums = {1, 2, 2, 3, 4, 4,  4};
         System.out.println(sumOfUnique(nums));
     }
     public static int sumOfUnique(int[] nums) {
