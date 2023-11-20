@@ -1,4 +1,4 @@
-package org.example.hashmaps;
+package org.example.hashmaps.dublicate;
 
 import java.util.HashMap;
 import java.util.Map;

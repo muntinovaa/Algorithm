@@ -35,7 +35,6 @@ public static int missingNumber(int[] nums) {
             }
         }
    return -1; // In case all numbers are present (not expected in this problem)
-
-}
+  }
 
 }

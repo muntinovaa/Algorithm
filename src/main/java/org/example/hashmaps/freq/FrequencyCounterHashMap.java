@@ -18,6 +18,9 @@ public class FrequencyCounterHashMap{
 
         System.out.println(mostFrequencyCounter(words));
 
+        int[] nums = {2,2,1,1,1,1,1,2,2};
+        System.out.println(majorityElement(nums));
+
     }
 
     public static Map<String, Integer> frequencyCounter(List<String> words) {
@@ -44,6 +47,24 @@ public class FrequencyCounterHashMap{
         }
 
         return maxCountWord;
+    }
+
+    public static int majorityElement(int[] nums) {
+        HashMap<Integer,Integer> map = new HashMap<>();
+
+        for (Integer intKey: nums){
+            map.put(intKey,map.getOrDefault(intKey,0) + 1);
+        }
+        int majorityElement = nums[0];
+        int maxValue=0;
+        for (Map.Entry<Integer,Integer> integerEntry : map.entrySet()){
+            if(integerEntry.getValue()>maxValue){
+                maxValue= integerEntry.getValue();
+                majorityElement = integerEntry.getKey();
+            }
+        }
+        return majorityElement;
+
     }
 
 

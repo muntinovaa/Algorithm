@@ -1,4 +1,4 @@
-package org.example.hashmaps;
+package org.example.hashmaps.dublicate;
 /*
 https://leetcode.com/problems/unique-email-addresses/
 * */

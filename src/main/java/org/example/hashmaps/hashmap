@@ -31,7 +31,7 @@ Here are 50 coding task ideas that leverage HashMaps in Java:
 27. **Maximum size subarray sum equals k.**
 28. **Design a stack that supports getMin() in O(1) time and O(1) extra space.**
 29. **Design and implement a data structure for a Least Frequently Used (LFU) cache.**
-30. **Find the Duplicate Number.**
+30. ****
 31. **Design a data structure that supports adding new words and finding if a string matches any previously added string.**
 32. **Longest Substring with At Most K Distinct Characters.**
 33. **Find All Anagrams in a String.**
