@@ -1,0 +1,52 @@
+Here are 50 coding task ideas involving linked lists:
+
+Implement a singly linked list from scratch.
+Reverse a singly linked list.
+Find the middle of a linked list.
+Check if a linked list has a cycle.
+Merge two sorted linked lists.
+Remove the N-th node from the end of a list.
+Delete a node in a linked list with a given key.
+Detect a cycle and return the starting node of the loop in a linked list.
+Remove duplicates from a sorted linked list.
+Partition a linked list around a given value.
+Add two numbers represented by linked lists.
+Find the intersection point of two linked lists.
+Check if a linked list is a palindrome.
+Flatten a multilevel doubly linked list.
+Rotate a linked list to the right by k places.
+Copy a list with random pointers.
+Swap nodes in pairs in a linked list.
+Reverse nodes in k-group in a linked list.
+Sort a linked list using merge sort.
+Check whether two lists are identical.
+Find the starting point of the cycle in a linked list.
+Remove all occurrences of a specific value in a linked list.
+Split a circular linked list into two halves.
+Find the pair with a given sum in a sorted doubly linked list.
+Remove duplicates from an unsorted linked list.
+Merge sort for doubly linked lists.
+Reverse a doubly linked list.
+Insert a node in a sorted circular linked list.
+Implement LRU Cache using a linked list.
+Implement a stack using a singly linked list.
+Implement a queue using a singly linked list.
+Find the union and intersection of two linked lists.
+Check if a linked list is circular.
+Split a linked list into two equal parts.
+Clone a linked list with a next and arbitrary pointer.
+Implement a Josephus Circle using a circular linked list.
+QuickSort on a doubly linked list.
+Merge K sorted linked lists.
+Reverse alternate K nodes in a singly linked list.
+Add 1 to a number represented as a linked list.
+Segregate even and odd nodes in a linked list.
+Pairwise swap elements in a linked list.
+Delete nodes which have a greater value on the right side.
+Rearrange a linked list in Zig-Zag fashion.
+Rotate a doubly linked list.
+Sort a k-sorted doubly linked list.
+Find the sum of two represented as linked lists.
+Find the triplet from three linked lists with a given sum.
+Add two polynomials represented by linked lists.
+Implement Radix Sort using a linked list.

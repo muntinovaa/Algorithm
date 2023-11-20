@@ -1,0 +1,54 @@
+Here are 50 coding task ideas that leverage the two-pointer technique:
+
+1. **Find the pair in an array that sums up to a given target.**
+2. **Determine if a palindrome can be made by removing at most one character from a string.**
+3. **Merge two sorted arrays into one sorted array.**
+4. **Find the minimum size subarray sum.**
+5. **Move all zeros in an array to the end without changing the order of non-zero elements.**
+6. **Check if a string contains all the letters of another string.**
+7. **Determine if there are any duplicate characters within k distance in a string.**
+8. **Find the longest substring without repeating characters.**
+9. **Reverse words in a given string.**
+10. **Find the maximum product of two integers in an array.**
+11. **Remove duplicates from a sorted array.**
+12. **Find the intersection of two sorted arrays.**
+13. **Check if a string is a rotational palindrome.**
+14. **Determine if a set of three numbers in an array sums up to a given target (3Sum).**
+15. **Implement a function to reverse a linked list.**
+16. **Find the longest palindromic substring in a string.**
+17. **Search for a range of a given number in a sorted array.**
+18. **Squaring a sorted array.**
+19. **Partition an array into three parts with equal sum.**
+20. **Remove all instances of a specific value from a sorted array.**
+21. **Count the number of unique pairs that have a given difference k in an array.**
+22. **Find the container with the most water (Container With Most Water problem).**
+23. **Detect a cycle in a linked list.**
+24. **Find the entry point of a cycle in a linked list.**
+25. **Rearrange a linked list in-place.**
+26. **Find the middle of a linked list.**
+27. **Merge two sorted linked lists.**
+28. **Check if a linked list is a palindrome.**
+29. **Implement the 'Remove Nth Node From End of List' problem.**
+30. **Split a linked list into two halves.**
+31. **Find the happy number.**
+32. **Rearrange an array so that arr[i] becomes arr[arr[i]] with O(1) extra space.**
+33. **Sort an array of 0s, 1s, and 2s.**
+34. **Find the 'Kth' largest element in an array.**
+35. **Implement a function to check if an array is a subsequence of another array.**
+36. **Remove duplicates from a sorted linked list.**
+37. **Find four elements that sum to a given value (4Sum problem).**
+38. **Implement the 'Trapping Rain Water' problem.**
+39. **Find a peak element in an unsorted array.**
+40. **Check if an array can be divided into pairs whose sum is divisible by k.**
+41. **Find the minimum length unsorted subarray, sorting which makes the complete array sorted.**
+42. **Count the triplets in an array such that i<j<k and a[i]<a[j]<a[k].**
+43. **Find the length of the longest Fibonacci-like subsequence.**
+44. **Check if there exist two elements in an array whose sum is equal to the sum of the rest of the array.**
+45. **Merge intervals.**
+46. **Find the smallest range containing elements from k lists.**
+47. **Count distinct elements in every window of size k.**
+48. **Find the majority element that appears more than n/2 times.**
+49. **Implement 'Next Permutation' problem.**
+50. **Find all triplets with zero sum.**
+
+These tasks cover a range of difficulties and can be used to deepen your understanding of array and linked list manipulation, string processing, and other common algorithmic challenges. The two-pointer technique is particularly useful for problems involving ordered data or when looking to reduce time complexity from O(n²) to O(n).

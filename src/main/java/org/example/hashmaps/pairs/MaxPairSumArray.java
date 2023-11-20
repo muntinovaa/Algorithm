@@ -1,9 +1,11 @@
 package org.example.hashmaps.pairs;
 //2815. Max Pair Sum in an Array
 public class MaxPairSumArray {
- /*   public static int[] numberOfPairs(int[] nums) {
+    public static void main(String[] args) {
 
     }
+  /* public static int[] numberOfPairs(int[] nums) {
 
-  */
+    }
+*/
 }

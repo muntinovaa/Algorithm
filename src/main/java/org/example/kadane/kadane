@@ -1,0 +1,52 @@
+Here are 50 task ideas centered around Kadane's algorithm:
+
+Find the maximum sum of a contiguous subarray in an array (Classic Kadane’s Algorithm).
+Find the maximum circular subarray sum.
+Maximum sum of a contiguous subarray of size K.
+Maximum product of a contiguous subarray.
+Find the length of the longest contiguous subarray with a sum equal to K.
+Maximum sum of a subarray with at most K elements.
+Maximum sum subarray removing at most one element.
+Find the sum of the largest sum contiguous subarray in a 2D matrix.
+Maximum sum subarray with the removal of at most one element.
+Maximum sum subarray by flipping signs of at most K array elements.
+Find maximum average subarray of K length.
+Maximum sum of a contiguous subarray with evenly spaced elements.
+Maximum sum subarray with exactly K even numbers.
+Find the smallest subarray length with a sum greater than a given value.
+Maximum subarray sum after dividing array into K subarrays.
+Longest subarray with sum divisible by K.
+Maximum sum of a contiguous subarray in a circular array.
+Maximum subarray sum after inverting sign of any subarray once.
+Maximum sum subarray with at most K distinct elements.
+Find the subarray with least average.
+Maximum sum subarray after deleting at most one element.
+Maximum sum of non-overlapping subarrays of size K.
+Maximum sum of hourglass in matrix.
+Maximum sum of a path in a right number triangle.
+Maximum sum of a contiguous subarray in a 2D array with at most K elements.
+Longest subarray with at most K odd numbers.
+Maximum sum of subsequence with no adjacent elements.
+Maximum sum of all subarrays of size K.
+Maximum sum subarray with at least K elements.
+Find maximum sum subarray among all subarrays of size K.
+Maximum sum subarray in a binary array with at most K swaps.
+Maximum sum of a contiguous subarray with alternating signs.
+Maximum subarray sum modulo M.
+Maximum sum subarray of size at least K.
+Maximum sum of all subarrays of size at most K.
+Maximum sum of a concatenated subarray.
+Maximum sum of non-overlapping subarrays of size at least K.
+Maximum subarray sum in an array created after K concatenations.
+Maximum sum of a contiguous subarray with at most K zero flips.
+Maximum sum of a subarray with elements from different rows in a matrix.
+Maximum sum subarray with the difference between maximum and minimum elements less than K.
+Maximum sum of two non-overlapping subarrays.
+Maximum subarray sum in a rotated array.
+Maximum sum of M non-overlapping subarrays.
+Maximum sum of a contiguous subarray with binary elements after at most K flips.
+Longest subarray with sum less than or equal to K.
+Maximum sum of a contiguous subarray with at most K positive elements.
+Maximum sum subarray after reversing any subarray.
+Find the subarray with maximum sum and length greater than or equal to L.
+Maximum sum of a contiguous subarray of size between L and R (inclusive).

@@ -30,4 +30,7 @@ package org.example.hashmaps.pairs;
  Explanation: In this example, we are unable to form any pair of strings.
  * */
 public class MaximumNumberStringPairs {
+    public static void main(String[] args) {
+
+    }
 }

@@ -5,6 +5,9 @@ import java.util.Map;
 
 //2341. Maximum Number of Pairs in Array
 public class MaximumNumberPairsArray {
+    public static void main(String[] args) {
+
+    }
 
     public static int[] maxNumberOfPairs(int[] nums) {
         Map<Integer, Integer> countMap = new HashMap<>();

@@ -1,11 +1,11 @@
-package org.example.all.MapAlgorithms;
+package org.example.hashmaps;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class MostFrequentSubstring {
     public static String mostFrequentSubstring(String s, int k) {
-        if (s == null || s.length() == 0 || k > s.length()) {
+        if (s == null || s.isEmpty() || k > s.length()) {
             return null;
         }
 

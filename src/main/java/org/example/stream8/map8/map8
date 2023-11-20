@@ -1,0 +1,51 @@
+Convert a list of Strings to their upper case form.
+Convert a list of numbers to their square values.
+Parse a list of strings to a list of integers.
+Transform a list of user objects to a list of their usernames.
+Map a list of numbers to a list of their string representations.
+Convert a list of dates in String format to LocalDate objects.
+Transform a list of objects to a list of another property of these objects.
+Convert a list of Decimal numbers to Binary String format.
+Transform a list of points on a 2D plane to their distances from the origin.
+Map a list of booleans to a list of 'Yes' or 'No' strings.
+Convert a list of integer values to their factorial values.
+Map a list of strings to their lengths.
+Transform a list of Person objects to a list of their age.
+Map a list of objects to their JSON string representations.
+Convert a list of numeric strings to a list of BigInteger.
+Transform a list of File objects to a list of their absolute paths.
+Map a list of Locale objects to their display language.
+Transform a list of strings to a list of their first characters.
+Map a list of strings to a list of their String hash codes.
+Convert a list of Employee objects to a list of their salary increments.
+Transform a list of temperatures in Celsius to Fahrenheit.
+Map a list of URLs to a list of their host names.
+Convert a list of BigDecimal numbers to their double value.
+Transform a list of entities to a list of DTOs.
+Map a list of names to a list of greetings (e.g., "Hello, John!").
+Convert a list of Color objects to a list of their RGB values.
+Map a list of strings to their trimmed versions.
+Transform a list of integers to their Roman numeral representations.
+Map a list of Order objects to a list of their total amounts.
+Convert a list of time strings (HH:mm:ss) to LocalTime objects.
+Transform a list of Product objects to a list of their price tags.
+Map a list of coordinates to a list of Point2D objects.
+Convert a list of integer codes to a list of corresponding enum values.
+Map a list of BufferedImage objects to a list of their byte[] representations.
+Transform a list of names to a list of Optional objects.
+Convert a list of BigInteger numbers to their base 10 logarithms.
+Map a list of Circle objects to a list of their areas.
+Transform a list of Rectangle objects to a list of their perimeters.
+Map a list of strings to a list of Optional if they are non-empty.
+Convert a list of Book objects to a list of their authors' names.
+Transform a list of Order objects to a list of their Customer names.
+Map a list of LocalDateTime objects to ZonedDateTime objects with a particular timezone.
+Convert a list of strings representing JSON to a list of JsonObject.
+Transform a list of Currency objects to a list of their currency codes.
+Map a list of numbers to their logarithmic values.
+Convert a list of Path objects to a list of file sizes.
+Transform a list of numbers to a list of strings formatted as percentages.
+Map a list of strings to a list of UUID objects generated from them.
+Convert a list of Student objects to a list of their grades average.
+Transform a list of 2D coordinates to a list of Point objects.
+These tasks cover a range of scenarios and complexities involving the map operation, from basic transformations

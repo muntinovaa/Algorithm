@@ -1,0 +1,52 @@
+Here are 50 coding task ideas related to subsets:
+
+Generate all subsets of a set (Power Set).
+Find subsets that sum to a particular value.
+Generate all subsets of a particular size.
+Print all subsets of a string.
+Find subsets with a given difference between their sums.
+Generate unique subsets from a set with duplicates.
+Count subsets with a given sum.
+Find the subset with the maximum sum.
+Generate all possible combinations of K numbers from 1 to N.
+Find all possible subsets that sum up to a prime number.
+Generate subsets in lexicographical (sorted) order.
+Subset Sum Problem.
+Partition a set into two subsets such that the difference of subset sums is minimum.
+Find the number of subsets that are divisible by a particular number.
+Check if a subset with zero sum exists.
+Generate all contiguous subarrays of an array.
+Find the largest divisible subset.
+Print all subsets of a set in a Gray-code order.
+Subset generation by bitwise representation.
+Find the subset with elements in a given range.
+Find all subsets of a set in a spiral order.
+Generate subsets with bitwise AND greater than a given number.
+Generate all permutations of a set.
+Subsets that contain a particular element.
+Find the total sum of all subset sums.
+Enumerate subsets of a set in a binary tree representation.
+Find the smallest subset with a sum greater than all other elements.
+Backtracking to generate all possible subsets.
+Dynamic programming approach to subset generation.
+Subset generation using Stack.
+Iterative method to generate subsets.
+Generate all possible subsets using recursion.
+Subset generation with a fixed number of bits set.
+Find all subsets that are palindrome partitions of a string.
+Print all subsets in a tree format.
+Generate subsets with an equal sum in two halves.
+Subset generation by shifting numbers.
+Generate subsets with elements in ascending order.
+Generate all possible combinations of a phone number.
+Find subsets whose elements are Fibonacci numbers.
+Generate subsets with exclusive OR (XOR) of elements being even.
+Subsets of an array with elements in geometric progression.
+Generate subsets where each subset is a binary search tree.
+Subset generation avoiding adjacent elements.
+Generate subsets of arrays having alternate positive and negative numbers.
+Subset generation with a maximum element constraint.
+Generate subsets where the sum of every two adjacent elements is prime.
+Generate all balanced parentheses combinations.
+Generate subsets of a set represented as a bit vector.
+Subset generation with sum of subset elements being a perfect square.
