@@ -1,9 +1,16 @@
-package org.example.hashmaps;
+package org.example.hashmaps.contains;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class WordsContainedCheck {
+    public static void main(String[] args) {
+        String word1 = "Bacardi JD corona budwiser";
+        String word2 = "Bacardi malboro JD heinekin budwiser JD fireball corona bacardi corona budwiser";
+
+        boolean result = areWordsContained(word1, word2);
+        System.out.println(result); // Should print true
+    }
     public static boolean areWordsContained(String word1, String word2) {
         // Tokenize the input strings into arrays of words
         String[] words1 = word1.split(" ");
@@ -33,11 +40,5 @@ public class WordsContainedCheck {
         return true;
     }
 
-    public static void main(String[] args) {
-        String word1 = "Bacardi JD corona budwiser";
-        String word2 = "Bacardi malboro JD heinekin budwiser JD fireball corona bacardi corona budwiser";
 
-        boolean result = areWordsContained(word1, word2);
-        System.out.println(result); // Should print true
-    }
 }

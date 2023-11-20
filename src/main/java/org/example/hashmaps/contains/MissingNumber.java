@@ -1,7 +1,9 @@
-package org.example.hashmaps;
+package org.example.hashmaps.contains;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /*
 Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
@@ -19,22 +21,34 @@ public class MissingNumber {
     public static void main(String[] args) {
         int [] nums = {0,1,2,3};
         System.out.println(missingNumber(nums));
+        System.out.println(missingNumber1(nums));
     }
-
-public static int missingNumber(int[] nums) {
-   Map<Integer, Boolean> map = new HashMap<>();
-        int n = nums.length;
-        // Store each number in the map
-        for (int num : nums) {
-            map.put(num, true);
+    public static int missingNumber1(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int num: nums){
+            set.add(num);
         }
-        // Find the missing number
-        for (int i = 0; i <= n; i++) {
-            if (!map.containsKey(i)) {
+        for (int i = 0; i <= nums.length; i++) {
+            if (!set.contains(i)) {
                 return i;
             }
         }
-   return -1; // In case all numbers are present (not expected in this problem)
-  }
+        return -1;
+    }
+    public static int missingNumber(int[] nums) {
+       Map<Integer, Boolean> map = new HashMap<>();
+            int n = nums.length;
+            // Store each number in the map
+            for (int num : nums) {
+                map.put(num, true);
+            }
+            // Find the missing number
+            for (int i = 0; i <= n; i++) {
+                if (!map.containsKey(i)) {
+                    return i;
+                }
+            }
+       return -1; // In case all numbers are present (not expected in this problem)
+    }
 
 }
