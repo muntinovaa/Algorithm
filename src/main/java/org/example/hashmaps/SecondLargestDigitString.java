@@ -12,7 +12,6 @@ public class SecondLargestDigitString {
     }
     public static int secondLargestDigit(String s) {
         Map<Character, Boolean> digitMap = new HashMap<>();
-
         for (char c : s.toCharArray()) {
             if (Character.isDigit(c)) {
                 digitMap.put(c, true);
@@ -31,7 +30,6 @@ public class SecondLargestDigitString {
                 secondLargest = digit;
             }
         }
-
         return secondLargest;
     }
 }

@@ -11,6 +11,9 @@ public class FirstUniqueCharacterString {
         System.out.println(char1);
         System.out.println(char2);
 
+        int[] testArray = {1, 2, 2, 3, 4, 4,  4};
+        System.out.println(firstUniqueInt(testArray));
+
     }
 
     public static Character firstUniqueChar(String str){
@@ -39,6 +42,22 @@ public class FirstUniqueCharacterString {
 
         for (char c : str.toCharArray()) {
             if (charCount.get(c) == 1) {
+                return c;
+            }
+        }
+
+        return null; // Return null if no unique character is found
+    }
+
+    public static Integer firstUniqueInt(int[] arr) {
+        Map<Integer, Integer> map = new HashMap<>();
+
+        for (Integer c : arr) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        for (Integer c : arr) {
+            if (map.get(c) == 1) {
                 return c;
             }
         }

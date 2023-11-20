@@ -1,4 +1,4 @@
-package org.example.hashmaps.freq.comparator;
+package org.example.hashmaps.frequency.comparator;
 
 import java.util.*;
 
