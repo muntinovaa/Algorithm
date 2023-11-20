@@ -1,4 +1,4 @@
-package org.example.hashmaps.contains;
+package org.example.hashmaps.frequency;
 
 import java.util.HashMap;
 import java.util.Map;
