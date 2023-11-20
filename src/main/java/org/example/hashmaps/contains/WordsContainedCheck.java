@@ -24,21 +24,16 @@ public class WordsContainedCheck {
         for (String word : words1) {
             word1Map.put(word, word1Map.getOrDefault(word, 0) + 1);
         }
-
         // Populate the frequency map for word2
         for (String word : words2) {
             word2Map.put(word, word2Map.getOrDefault(word, 0) + 1);
         }
-
         // Check if every word in word1 is present in word2 with counts
         for (String word : words1) {
-            if (!word2Map.containsKey(word) || word2Map.get(word) < word1Map.get(word)) {
+           if (!word2Map.containsKey(word) || word2Map.get(word) < word1Map.get(word)) {
                 return false;
             }
         }
-
         return true;
     }
-
-
 }
