@@ -1,4 +1,4 @@
-package org.example.pattern16.array.minmax;
+package org.example.pattern16.array;
 
 import java.util.Arrays;
 import java.util.Comparator;

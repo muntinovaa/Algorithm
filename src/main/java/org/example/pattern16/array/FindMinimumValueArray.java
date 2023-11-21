@@ -1,4 +1,4 @@
-package org.example.pattern16.array.minmax;
+package org.example.pattern16.array;
 
 public class FindMinimumValueArray {
     public static void main(String []args) {
