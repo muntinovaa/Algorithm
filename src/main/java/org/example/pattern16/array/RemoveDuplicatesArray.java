@@ -2,6 +2,7 @@ package org.example.pattern16.array;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Set;
 
 public class RemoveDuplicatesArray {
     public static void main(String[] args) {
@@ -28,5 +29,12 @@ public class RemoveDuplicatesArray {
             result[i++] = num;
         }
         return result;
+    }
+    public static int[] removeDuplicates(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        return set.stream().mapToInt(Integer::intValue).toArray();
     }
 }
