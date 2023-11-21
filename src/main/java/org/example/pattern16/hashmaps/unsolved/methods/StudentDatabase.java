@@ -1,4 +1,4 @@
-package org.example.pattern16.hashmaps.methods;
+package org.example.pattern16.hashmaps.unsolved.methods;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -7,27 +7,26 @@ public class SecondLargestElementArray {
         System.out.println("The second largest element is: " + secondLargest);
     }
 
-    public static int findSecondLargest(int[] arr) {
-        if (arr.length < 2) {
-            throw new IllegalArgumentException("Array should have at least two elements");
+    public static int findSecondLargest(int[] nums) {
+        if (nums.length < 2) {
+            throw new IllegalArgumentException("Array must contain at least two elements.");
         }
+        int max = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE;
 
-        int firstLargest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
-
-        for (int j : arr) {
-            if (j > firstLargest) {
-                secondLargest = firstLargest;
-                firstLargest = j;
-            } else if (j > secondLargest && j != firstLargest) {
-                secondLargest = j;
+        for (int num : nums) {
+            if (num > max) {
+                secondMax = max;
+                max = num;
+            } else if (num > secondMax && num != max) {
+                secondMax = num;
             }
         }
 
-        if (secondLargest == Integer.MIN_VALUE) {
-            throw new RuntimeException("There is no second largest element");
+        if (secondMax == Integer.MIN_VALUE) {
+            throw new IllegalArgumentException("All elem equal array.");
         }
-
-        return secondLargest;
+        return secondMax;
     }
+
 }
