@@ -1,10 +1,11 @@
-package org.example.pattern16.hashmaps.unsolved;
+package org.example.pattern16.hashmaps.contains;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.
+ Given two strings ransomNote and magazine, return true
+ if ransomNote can be constructed by using the letters from magazine and false otherwise.
  Each letter in magazine can only be used once in ransomNote.
  Example 1: Input: ransomNote = "a", magazine = "b"
  Output: false
@@ -14,12 +15,14 @@ import java.util.Map;
  Example 3:
  Input: ransomNote = "aa", magazine = "aab"
  Output: true
- * */
+ Input: ransomNote = "aabb", magazine = "aabb"
+ Output: true
+ **/
 public class RansomNote {
     public static void main(String[] args) {
-        System.out.println(canConstruct("a", "b")); // Output: false
-        System.out.println(canConstruct("aa", "ab")); // Output: false
-        System.out.println(canConstruct("aa", "aab")); // Output: true
+        System.out.println(canConstruct("a", "ab")); // Output: false
+        System.out.println(canConstruct("aaab", "abaa")); // Output: false
+        System.out.println(canConstruct("aab", "aab")); // Output: true
     }
 
     public static boolean canConstruct(String ransomNote, String magazine) {
@@ -37,9 +40,6 @@ public class RansomNote {
             }
             letterCounts.put(c, letterCounts.get(c) - 1);
         }
-
         return true;
     }
-
-
 }

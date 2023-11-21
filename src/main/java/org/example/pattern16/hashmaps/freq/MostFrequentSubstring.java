@@ -1,9 +1,15 @@
-package org.example.pattern16.hashmaps.unsolved.frequency;
+package org.example.pattern16.hashmaps.freq;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class MostFrequentSubstring {
+    public static void main(String[] args) {
+        String s = "AABCABBCBBA";
+        int k = 3;
+        System.out.println("Most frequent substring of length "
+                + k + ": " + mostFrequentSubstring(s, k));
+    }
     public static String mostFrequentSubstring(String s, int k) {
         if (s == null || s.isEmpty() || k > s.length()) {
             return null;
@@ -16,7 +22,7 @@ public class MostFrequentSubstring {
         }
 
         String mostFrequent = null;
-        int maxCount = 0;
+        Integer maxCount = 0;
         for (Map.Entry<String, Integer> entry : substringCount.entrySet()) {
             if (entry.getValue() > maxCount) {
                 maxCount = entry.getValue();
@@ -26,9 +32,5 @@ public class MostFrequentSubstring {
         return mostFrequent;
     }
 
-    public static void main(String[] args) {
-        String s = "AABCABBCBBA";
-        int k = 3;
-        System.out.println("Most frequent substring of length " + k + ": " + mostFrequentSubstring(s, k));
-    }
+
 }

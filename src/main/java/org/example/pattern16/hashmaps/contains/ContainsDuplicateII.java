@@ -1,4 +1,4 @@
-package org.example.pattern16.hashmaps.unsolved.frequency;
+package org.example.pattern16.hashmaps.contains;
 
 import java.util.HashMap;
 import java.util.Map;
