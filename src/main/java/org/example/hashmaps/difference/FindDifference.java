@@ -15,7 +15,7 @@ import java.util.HashMap;
  */
 public class FindDifference {
     public static void main(String[] args) {
-        System.out.println(findTheDifference("hasadad","h"));
+        System.out.println(findTheDifference("abcd","abcde"));
     }
 
     public static Character findTheDifference(String s, String t) {
