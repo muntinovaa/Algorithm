@@ -1,4 +1,4 @@
-package org.example.hashmaps.difference;
+package org.example.hashmaps.freq;
 
 import java.util.HashMap;
 
