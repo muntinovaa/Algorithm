@@ -15,7 +15,7 @@ import java.util.HashMap;
  */
 public class FindDifference {
     public static void main(String[] args) {
-        System.out.println(findTheDifference("","h"));
+        System.out.println(findTheDifference("hasadad","h"));
     }
 
     public static Character findTheDifference(String s, String t) {
@@ -27,6 +27,7 @@ public class FindDifference {
         }
         for (char ch : t.toCharArray()) {
             int freq = map.getOrDefault(ch, 0);
+            System.out.println("freq:" + freq);
             if (freq - 1 < 0) {
                 return ch;
             }
