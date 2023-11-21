@@ -4,6 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class PairSumCounter {
+    public static void main(String[] args) {
+        int[] arr = {1, 5, 7, -1, 5};
+        int K = 6;
+        System.out.println(countPairsWithSum(arr, K));  // Should print 3
+    }
     public static int countPairsWithSum(int[] arr, int K) {
         Map<Integer, Integer> freqMap = new HashMap<>();
         int count = 0;
@@ -21,9 +26,5 @@ public class PairSumCounter {
         return count;
     }
 
-    public static void main(String[] args) {
-        int[] arr = {1, 5, 7, -1, 5};
-        int K = 6;
-        System.out.println(countPairsWithSum(arr, K));  // Should print 3
-    }
+
 }
