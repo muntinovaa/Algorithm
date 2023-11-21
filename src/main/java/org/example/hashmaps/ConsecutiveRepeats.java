@@ -6,15 +6,11 @@ import java.util.Map;
 public class ConsecutiveRepeats {
     public static Map<Character, Integer> findConsecutiveRepeats(String s) {
         Map<Character, Integer> result = new HashMap<>();
-
         if (s == null || s.isEmpty()) return result;
-
         char prevChar = s.charAt(0);
         int count = 1;
-
         for (int i = 1; i < s.length(); i++) {
             char currentChar = s.charAt(i);
-
             // If the character is the same as the previous one, increase the count
             if (currentChar == prevChar) {
                 count++;
@@ -28,12 +24,10 @@ public class ConsecutiveRepeats {
                 prevChar = currentChar;
             }
         }
-
         // Check for the last character sequence
         if (count > 1) {
             result.put(prevChar, result.getOrDefault(prevChar, 0) + 1);
         }
-
         return result;
     }
 

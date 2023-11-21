@@ -7,11 +7,9 @@ public class PairSumCounter {
     public static int countPairsWithSum(int[] arr, int K) {
         Map<Integer, Integer> freqMap = new HashMap<>();
         int count = 0;
-
         for (int num : arr) {
             // Calculate complement of current number with respect to K
             int complement = K - num;
-
             // If complement is found in map, we found a pair
             if (freqMap.containsKey(complement)) {
                 count += freqMap.get(complement);
@@ -20,7 +18,6 @@ public class PairSumCounter {
             // Update frequency of current number
             freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
         }
-
         return count;
     }
 
