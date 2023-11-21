@@ -14,19 +14,19 @@ public class RemoveDuplicatesArray {
         System.out.println(Arrays.toString(result));  // Outputs: [1, 2, 3, 4, 5]
     }
 
-        public static int[] removeDuplicates1(int[] nums) {
-            // Use a HashSet to store unique numbers
-            HashSet<Integer> set = new HashSet<>();
-            for (int num : nums) {
-                set.add(num);
-            }
-
-            // Convert the set back to an array
-            int[] result = new int[set.size()];
-            int i = 0;
-            for (int num : set) {
-                result[i++] = num;
-            }
-            return result;
+    public static int[] removeDuplicates1(int[] nums) {
+        // Use a HashSet to store unique numbers
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
         }
+
+        // Convert the set back to an array
+        int[] result = new int[set.size()];
+        int i = 0;
+        for (int num : set) {
+            result[i++] = num;
+        }
+        return result;
+    }
 }
