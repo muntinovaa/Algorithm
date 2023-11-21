@@ -1,5 +1,6 @@
 package org.example.pattern16.array.minmax;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -8,9 +9,7 @@ public class CommonElementsBetweenTwoArrays {
         int[] arr1 = {12, 1,2 };
         int[] arr2 = {12, 1,2,3};
         int[] commonElements = commonElementsBetweenTwoArrays(arr1, arr2);
-        for (int i : commonElements){
-            System.out.println(i);
-        }
+        System.out.println(Arrays.toString(commonElements));
     }
 
     private static int[] commonElementsBetweenTwoArrays(int[] arr1,int[] arr2) {
