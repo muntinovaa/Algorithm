@@ -13,6 +13,7 @@ public class SecondMostRepeatedWord {
     }
 
     public static String secondMostRepeatedWord(String[] words){
+
         Map<String, Integer> wordCount = new HashMap<>();
         for (String word : words) {
             wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
@@ -34,7 +35,7 @@ public class SecondMostRepeatedWord {
                 secondMostRepeatedCount = entry.getValue();
             }
         }
-        System.out.println(mostRepeatedWord);
+       // System.out.println(mostRepeatedWord);
         return secondMostRepeatedWord;
     }
 
