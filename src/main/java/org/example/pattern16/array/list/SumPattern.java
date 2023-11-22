@@ -1,4 +1,4 @@
-package org.example.pattern16.array;
+package org.example.pattern16.array.list;
 import java.util.ArrayList;
 import java.util.List;
 

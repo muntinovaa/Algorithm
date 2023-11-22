@@ -1,4 +1,4 @@
-package org.example.pattern16.array;
+package org.example.pattern16.array.list;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
@@ -8,7 +8,27 @@ public class KthLargestElementArray {
         Arrays.sort(nums);
         return nums[nums.length - k];
     }
+    public static int findKthLargest(int[] nums, int k) {
+        if (nums == null || nums.length == 0 || k <= 0 || k > nums.length) {
+            // Handle invalid input gracefully
+            return 0;
+        }
+        // Create a max heap
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
 
+        // Add elements to the max heap
+        for (int num : nums) {
+            maxHeap.offer(num);
+        }
+
+        // Remove the top k - 1 elements
+        for (int i = 0; i < k - 1; i++) {
+            maxHeap.poll();
+        }
+
+        // The top element is the Kth largest
+        return maxHeap.poll();
+    }
     public static int findKthLargestUsingHeap(int[] nums, int k) {
         PriorityQueue<Integer> queue = new PriorityQueue<>();
         for (int num : nums) {

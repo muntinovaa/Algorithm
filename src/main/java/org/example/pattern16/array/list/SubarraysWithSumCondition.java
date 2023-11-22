@@ -1,4 +1,4 @@
-package org.example.pattern16.array;
+package org.example.pattern16.array.list;
 
 import java.util.*;
 
@@ -18,24 +18,26 @@ public class SubarraysWithSumCondition {
     public static void main(String[] args) {
         int[] arr = {1, 4, 2, 6, 5, 20, 8};
         List<List<Integer>> result = findSubArraysWithSum(arr);
+        System.out.println(result);
 
-        // Print the result
-        for (List<Integer> subArray : result) {
-            System.out.println(subArray);
-        }
+
     }
 
     public static List<List<Integer>> findSubArraysWithSum(int[] arr) {
-        Set<Integer> set = new HashSet<>();
-        for (int value : arr) {
-            set.add(value);
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> list =  new ArrayList<>();
+
+        for (int i=0; i<arr.length-1;i++){
+            list.add(arr[i]);
+            list.add(arr[i+1]);
+            list.add(arr[i]+arr[i+1]);
         }
 
-        List<List<Integer>> result = new ArrayList<>();
-        Set<String> seenPairs = new HashSet<>();
 
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
+    /*    for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j < arr.length; j++) {
+                System.out.println(i);
+
                 if (i != j) {
                     int sum = arr[i] + arr[j];
                     // Check if the sum is in the array and distinct from both elements of the pair
@@ -52,7 +54,7 @@ public class SubarraysWithSumCondition {
                     }
                 }
             }
-        }
+        }*/
 
         return result;
     }
